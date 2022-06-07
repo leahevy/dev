@@ -3,5 +3,5 @@
 set -euo pipefail
 
 rm -f ~/bin/*
-mkdir ~/bin 
+mkdir -p ~/bin 
 cp -r scripts/*/* ~/bin/
