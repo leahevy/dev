@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# node
+package*json
+node_modules
+
+# brew
+Brewfile.lock.json
