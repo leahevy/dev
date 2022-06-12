@@ -3,9 +3,9 @@
 set -euo pipefail
 
 # Plain shell scripts
-rm -f ~/bin/*
-mkdir -p ~/bin 
-cp -r scripts/*/* ~/bin/
+rm -f ~/dev/*
+mkdir -p ~/dev 
+cp -r scripts/*/* ~/dev/
 
 # My python package
 (cd python; pip install -e .)
